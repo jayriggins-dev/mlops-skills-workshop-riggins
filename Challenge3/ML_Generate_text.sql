@@ -19,11 +19,15 @@ CREATE OR REPLACE TABLE
             wind_speed_mph,
             CONCAT(
               'For the following weather data, provide keywords. Answer in JSON format with one key: keywords. Keywords should be a list.',
-              'City: ', city,
+              'Date: ', date,
+              ', City: ', city,
               ', State: ', state,
-              ', Weather: ', weather_condition,
               ', Temperature: ', temperature_f, '°F',
-              ', Wind: ', wind_speed_mph, 'mph.'
+              ', Wind Speed: ', wind_speed_mph, 'mph',
+              ', Precipitation: ', precipitation_in, ' in',
+              ', Barometric Pressure: ', barometric_pressure_inHg, ' inHg',
+              ', Humidity: ', humidity_percent, '%',
+              ', Weather Condition: ', weather_condition, '.'
             ) AS prompt
           FROM
             `qwiklabs-gcp-04-db5d757ff012.Lab3B.weather_data_bravo`

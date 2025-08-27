@@ -18,9 +18,8 @@ CREATE OR REPLACE TABLE
             temperature_f,
             wind_speed_mph,
             CONCAT(
-              'For the following weather data, provide keywords. Answer in JSON format with one key: keywords. Keywords should be a list.',
-              'Date: ', date,
-              ', City: ', city,
+              'For the following weather data, provide keywords. Answer in text format with one key: keywords. Keywords should be a list.',
+               'City: ', city,
               ', State: ', state,
               ', Temperature: ', temperature_f, '°F',
               ', Wind Speed: ', wind_speed_mph, 'mph',
@@ -39,3 +38,4 @@ CREATE OR REPLACE TABLE
         )
       )
 );
+           

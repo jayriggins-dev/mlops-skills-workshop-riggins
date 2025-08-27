@@ -1,5 +1,5 @@
 CREATE OR REPLACE TABLE
-  `qwiklabs-gcp-04-db5d757ff012.lab1.Foo` AS
+  `qwiklabs-gcp-04-db5d757ff012.lab1.Foo_transformed` AS
 SELECT
   -- Retain original Applicant_ID and other unchanged fields
   Applicant_ID,

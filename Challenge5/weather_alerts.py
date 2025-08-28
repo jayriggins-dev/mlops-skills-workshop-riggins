@@ -13,7 +13,7 @@ BQ_TABLE_ID_AIRPORTS = "weather-data"
 BQ_TABLE_ID_ALERTS = "weather_alerts"
 
 # --- Gemini API Configuration ---
-API_KEY = "AIzaSyCDjBcBWuDq7SSj3qCQAR3Ac7ntsIdtApI"
+API_KEY = "XXXXXXXXXXXXXXXX(redacted)"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=" + API_KEY
 HEADERS = {'Content-Type': 'application/json'}
 

@@ -9,7 +9,7 @@ from google.cloud.exceptions import NotFound
 # --- User-Defined Constants ---
 PROJECT_ID = "qwiklabs-gcp-04-db5d757ff012"
 BQ_DATASET_ID = "Lab5"
-BQ_TABLE_ID_AIRPORTS = "weather-data"
+BQ_TABLE_ID_AIRPORTS = "airports"
 BQ_TABLE_ID_ALERTS = "weather_alerts"
 
 # --- Gemini API Configuration ---
